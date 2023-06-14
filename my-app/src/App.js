@@ -1,4 +1,5 @@
 import "./App.css";
+
 // import Composition from "./components/2-4.Props/Composition";
 // import Extraction from "./components/2-4.Props/Extraction/Extraction";
 // import ClassComponent from "./components/2-5.State/ClassComponent";
@@ -16,7 +17,8 @@ import "./App.css";
 // import ThankyouDialog from "./components/3-6.Composition2/ThankyouDialog";
 // import Input from "./components/3-7.HOC/Input";
 // import Button from "./components/3-7.HOC/Button";
-import Memo from "./components/3-8.Memoization/Memo";
+// import Memo from "./components/3-8.Memoization/Memo";
+import Example from "./components/3-10.Context/Example";
 
 function App() {
   return (
@@ -38,7 +40,8 @@ function App() {
       {/* <Input />
       <br />
       <Button /> */}
-      <Memo />
+      {/* <Memo /> */}
+      <Example />
     </div>
   );
 }
