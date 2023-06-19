@@ -61,7 +61,7 @@ export default function MomentExample() {
       <div>생일 요일 찾기</div>
       <div>
         <input type="date" onChange={handleBirthDayChange} />
-        <div>무슨 요알?</div>
+        <div>무슨 요일?</div>
         <div>{day}</div>
       </div>
       <br />
