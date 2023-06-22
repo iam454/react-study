@@ -5,13 +5,18 @@
 // import OnsenUIExample from "./components/OnsenUI/OnsenUIExample";
 
 // Ant Design
-import AntDesignExample from "./components/AntDesign/AntDesignExample";
+// import AntDesignExample from "./components/AntDesign/AntDesignExample";
+
+// React Semantic UI
+import "semantic-ui-css/semantic.min.css";
+import ReactSemanticUIExample from "./components/ReactSemanticUI/ReactSemanticUIExample";
 
 function App() {
   return (
     <>
       {/* <OnsenUIExample /> */}
-      <AntDesignExample />
+      {/* <AntDesignExample /> */}
+      <ReactSemanticUIExample />
     </>
   );
 }
