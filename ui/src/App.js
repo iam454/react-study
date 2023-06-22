@@ -8,15 +8,20 @@
 // import AntDesignExample from "./components/AntDesign/AntDesignExample";
 
 // React Semantic UI
-import "semantic-ui-css/semantic.min.css";
-import ReactSemanticUIExample from "./components/ReactSemanticUI/ReactSemanticUIExample";
+// import "semantic-ui-css/semantic.min.css";
+// import ReactSemanticUIExample from "./components/ReactSemanticUI/ReactSemanticUIExample";
+
+// React Bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
+import ReactBootstrapExample from "./components/ReactBootstrap/ReactBootstrapExample";
 
 function App() {
   return (
     <>
       {/* <OnsenUIExample /> */}
       {/* <AntDesignExample /> */}
-      <ReactSemanticUIExample />
+      {/* <ReactSemanticUIExample /> */}
+      <ReactBootstrapExample />
     </>
   );
 }
