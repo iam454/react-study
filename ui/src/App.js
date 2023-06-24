@@ -12,8 +12,11 @@
 // import ReactSemanticUIExample from "./components/ReactSemanticUI/ReactSemanticUIExample";
 
 // React Bootstrap
-import "bootstrap/dist/css/bootstrap.min.css";
-import ReactBootstrapExample from "./components/ReactBootstrap/ReactBootstrapExample";
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import ReactBootstrapExample from "./components/ReactBootstrap/ReactBootstrapExample";
+
+// Material UI
+import MaterialUIExample from "./components/MaterialUI/MaterialUIExample";
 
 function App() {
   return (
@@ -21,7 +24,8 @@ function App() {
       {/* <OnsenUIExample /> */}
       {/* <AntDesignExample /> */}
       {/* <ReactSemanticUIExample /> */}
-      <ReactBootstrapExample />
+      {/* <ReactBootstrapExample /> */}
+      <MaterialUIExample />
     </>
   );
 }
