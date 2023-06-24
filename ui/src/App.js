@@ -16,7 +16,10 @@
 // import ReactBootstrapExample from "./components/ReactBootstrap/ReactBootstrapExample";
 
 // Material UI
-import MaterialUIExample from "./components/MaterialUI/MaterialUIExample";
+// import MaterialUIExample from "./components/MaterialUI/MaterialUIExample";
+
+// Tailwind CSS
+import TailwindExample from "./components/Tailwind/TailwindExample";
 
 function App() {
   return (
@@ -25,7 +28,8 @@ function App() {
       {/* <AntDesignExample /> */}
       {/* <ReactSemanticUIExample /> */}
       {/* <ReactBootstrapExample /> */}
-      <MaterialUIExample />
+      {/* <MaterialUIExample /> */}
+      <TailwindExample />
     </>
   );
 }
